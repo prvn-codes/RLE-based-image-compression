@@ -48,7 +48,7 @@ if __name__ == '__main__':
 		if scan not in ['R', 'RR', 'ZZ', 'C', 'CR']:
 			scan = 'R'
 
-		encodeImage(args['encode'], scan)
+		encodeImage(args['encode'], scan) 
 	elif args['decode'] is not None:
 		decodeImage(args['decode'])
 	else:
