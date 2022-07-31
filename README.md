@@ -26,8 +26,7 @@ Run Length Encoding is a type of lossless compression method. We have used it to
 ### Size Comparision
 
 |Image         |Original|Compressed|Decompressed|
-----------------------------------
-|lenna_4bit.bmp|128.12KB|93KB      |257KB       |
-|lenna_4bit.bmp|128.12KB|93KB      |257KB       |
-
-![Original Lenna BW bmp](images\lenna_BW.bmp)
+---------------|--------|----------|------------|
+|lenna_4bit.bmp|![Original Lena_4bit](./images/lenna_4bit.bmp)128.12KB|88.53KB (Compressed File cannot be shown)   |![Decompressed Lena_4bit](./images/lenna_4bit-decomp.bmp)256.12KB    |
+|lenna_8bit.bmp|![Original Lena_8bit](./images/lenna_8bit.bmp)257.05KB|155.6KB (Compressed File cannot be shown)   |![Decompressed Lena_8bit](./images/lenna_8bit-decomp.bmp)257.05KB    |
+|lenna_BW.bmp  |![Original lenna_BW](./images/lenna_BW.bmp)32.06KB |15.48KB (Compressed File cannot be shown)   |![Decompressed lenna_BW](./images/lenna_BW-decomp.bmp)32.06KB     |
